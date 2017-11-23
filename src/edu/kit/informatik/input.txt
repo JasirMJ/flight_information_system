@@ -1,0 +1,12 @@
+FRA;Frankfurt_am_Main
+TXL;Berlin-Tegel
+FKB;Karlsruhe_Baden-Baden
+HAM;Hamburg
+--
+FKB;HAM;556
+FKB;TXL;558
+TXL;HAM;250
+HAM;TXL;250
+TXL;FRA;431
+FRA;TXL;431
+HAM;FRA;411
