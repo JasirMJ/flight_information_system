@@ -14,12 +14,12 @@ A serialization consists of two areas. The first area describes the nodes of the
 The first area contains two or more lines in any order.
 Each line describes an airport (node) and is structured as follows:
 
-  <IATA code> <airport name>
+  'IATA code' 'airport name'
 
 The second area contains one or more rows in any order. Each line describes one
 Flight route (edge) and is structured as follows:
 
-  <Start Airport> <Destination> <distance>
+  'Start Airport' 'Destination' 'distance'
   
 ****************************************************************************************************
 
@@ -29,31 +29,31 @@ Interactive user interface:
 
 The airport command outputs the name of a specific airport to the console.
 
-Input format: airport <airport> , <airport> is an IATA code
+Input format: airport 'airport , airport' is an IATA code
 
 - connected command
 
-Input format: connected <start airport>; <destination airport>
+Input format: connected start airport; destination airport
 
 - distance command
 
 The distance command gives the distance between a departure airport and a destination airport
 
-Input format: distance <departure airport>; <destination airport>
+Input format: distance 'departure airport'; 'destination airport'
 
 - routes command
 
 The routes command returns to the console how many routes from a particular departure airport to one
 certain destination airports containing exactly z intermediate stops.
 
-Input format: routes <airport of departure>; <destination airport>; <stopovers>
+Input format: routes 'airport of departure'; 'destination airport'; 'stopovers'
 
 - shortest command
 
 The shortest command gives the distance of the shortest path between a particular departure airport and
 to a particular destination from the console.
 
-Input format: shortest <departure airport>; <destination airport>
+Input format: shortest 'departure airport'; 'destination airport'
 
 - quit command
 
