@@ -1,7 +1,7 @@
 package edu.kit.informatik;
 
 /**
- * This class implements graph algorithm (All-Pairs Shortest Paths and Floyd–Warshall algorithm) Floyd–Warshall
+ * This class implements graph algorithm (All-Pairs Shortest Paths and Floydï¿½Warshall algorithm) Floydï¿½Warshall
  * algorithm is an algorithm for finding shortest paths.
  * 
  * @author Oleh Kuzmin <uvdxz@student.kit.edu>
@@ -9,6 +9,7 @@ package edu.kit.informatik;
  */
 public final class GraphAlgorithm {
     // Private constructor to avoid object generation.
+	 double mathConst = Math.PI;
     private GraphAlgorithm() {
 
     }
@@ -34,7 +35,7 @@ public final class GraphAlgorithm {
     }
 
     /**
-     * Floyd–Warshall algorithm is an algorithm for finding shortest paths.
+     * Floydï¿½Warshall algorithm is an algorithm for finding shortest paths.
      * 
      * @param disMatrix
      *            distance Matrix

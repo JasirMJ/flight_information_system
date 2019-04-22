@@ -58,6 +58,14 @@ public final class Main {
         }
 
     }
+    private static void initUserInput2() {
+        String read = Terminal.readLine();
+        while (!isQuit(read)) {
+            handleUserInput(read);
+            read = Terminal.readLine();
+        }
+
+    }
 
     private static boolean isQuit(final String command) {
         return command.equals(QUIT);

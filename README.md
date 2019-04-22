@@ -1,9 +1,14 @@
+Important!!
+
+Command-line argument [args] should be relative location of input.txt
+Example: edu/kit/informatik/input.txt
+
 ****************************************************************************************************
 A simplified flight information system that answers questions of this kind to its users:
 
-• Is there a non-stop flight between two specific airports?
-• If not, how many stopovers does the shortest route contain?
-• Which flight distance is covered?
+ï¿½ Is there a non-stop flight between two specific airports?
+ï¿½ If not, how many stopovers does the shortest route contain?
+ï¿½ Which flight distance is covered?
 
 ****************************************************************************************************
 
